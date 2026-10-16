@@ -54,12 +54,11 @@ header {
     margin: 0 auto;
     color: var(--color-dark);
     text-decoration: none;
-    
 }
-
 
 .header-actions {
     display: flex;
+    flex-direction: row;
     gap: 8px;
 }
 
