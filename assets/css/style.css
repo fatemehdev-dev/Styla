@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 :root {
@@ -21,7 +20,6 @@ body {
     background: var(--color-bg);
     color: var(--color-text);
     overflow-x: hidden;
-    
 }
 
 .container {
@@ -56,7 +54,6 @@ header {
     margin: 0 auto;
     color: var(--color-dark);
     text-decoration: none;
-    
 }
 
 
@@ -75,7 +72,6 @@ header {
     position: relative;
     transition: background 0.3s;
 }
-
 
 .icon-btn:hover {
     background: rgba(201, 168, 124, 0.15);
