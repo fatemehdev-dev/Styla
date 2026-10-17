@@ -7,8 +7,8 @@
 :root {
     --color-primary: #c9a87c;      /* طلایی/شیری */
     --color-dark: #1a1a1a;          /* مشکی نرم */
-    --color-text: #333;             /* متن */
-    --color-bg: #faf7f2;            /* کرم روشن */
+    --color-text: #333;             
+    --color-bg: #faf7f2;         
     --color-white: #ffffff;
     --font-main: 'Vazirmatn', Tahoma, sans-serif;
 }
@@ -73,7 +73,6 @@ header {
     transition: background 0.3s;
 }
 
-
 .icon-btn:hover {
     background: rgba(201, 168, 124, 0.15);
 }
@@ -110,8 +109,7 @@ header {
 }
 
 .hero-content {
-    animation: slideUp 0.8s ease-out 0.2s both;
-}
+    animation: slideUp 0.8s ease-out 0.2s both;}
 
 .hero-badge {
     display: inline-block;
@@ -167,7 +165,7 @@ header {
                       
 .btn {
     display: inline-block;
-    padding: 14px 32px;
+    padding: 14px 22px;
     border-radius: 50px;
     font-size: 1rem;
     font-weight: 600;
@@ -293,7 +291,7 @@ header {
     color: var(--color-dark);
     letter-spacing: -0.5px;
 }
-                           /* گرید دسته‌بندی‌ها */
+            /* دسته‌بندی‌ها */
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -340,7 +338,6 @@ header {
     transform: scale(1.1);
 }
 
-/* لایه‌ی گرادیان روی عکس */
 .category-overlay {
     position: absolute;
     inset: 0;
@@ -801,10 +798,10 @@ header {
 
 .bottom-navigation {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 100;
     background: rgba(250, 247, 242, 0.85);
     backdrop-filter: blur(12px);
     border-radius: 999px;
@@ -814,7 +811,7 @@ header {
 
 .bottom-menu-panel {
     position: absolute;
-    bottom: 100%;
+    bottom: 90px;
     left: 0;
     right: 0;
     display: flex;
@@ -824,7 +821,7 @@ header {
     background: rgba(250, 247, 242, 0.85);
     backdrop-filter: blur(12px);
     border-radius: 32px;
-    border-top: 1px solid rgba(201, 168, 124, 0.25);
+    border-top: 3px double rgba(201, 168, 124, 0.65);
     box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
     opacity: 0;
     visibility: hidden;
@@ -859,7 +856,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .bottom-navigation > ul > li {
