@@ -810,6 +810,8 @@ header {
 }
 
 .bottom-menu-panel {
+    width: max-content;
+    min-width: 180px;
     position: absolute;
     bottom: 90px;
     left: 0;
