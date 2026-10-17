@@ -487,7 +487,6 @@ header {
     transform: translateY(-4px);
 }
 
-
 .product-circle img {
     width: 100%;
     height: auto;
@@ -502,9 +501,6 @@ header {
 
 .product-info h3 {
     font-size: 1.05rem;
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
     font-weight: 700;
     color: var(--color-dark);
     margin-bottom: 6px;
