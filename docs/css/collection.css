@@ -31,9 +31,9 @@
     animation: slideUp 0.8s ease-out;
 }
 
+
 .hero-content {
     color: white;
-    text-align: right;
     z-index: 2;
 }
 
@@ -61,7 +61,6 @@
 .hero-title .highlight { color: #c9a87c;}
 
 .hero-text {
-    font-size: 1.1rem;
     line-height: 1.8;
     color: #fff;
     text-shadow: 0 3px 5px #000;
@@ -220,8 +219,11 @@
         height: 70vh;
         min-height: 500px;
         max-height: 720px;
+        text-align: center;
     }
     .hero-title { font-size: 4.5rem; }
+    
+   .hero-content {text-align: right;}
 }
 
 /* ===== موبایل: گرید محصولات ۲ ستون ===== */
