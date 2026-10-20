@@ -35,6 +35,7 @@
 .hero-content {
     color: white;
     z-index: 2;
+    text-align: center;
 }
 
 .hero-subtitle {
