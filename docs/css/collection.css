@@ -205,30 +205,30 @@
 
   /*___________________responsive__________________*/
   
-@media (max-width: 768px) {
-    .hero-title { font-size: 3rem; }
-    
-    .hero-text { font-size: 1rem; }
-    
+/* ===== تبلت ===== */
+@media (min-width: 768px) {
     .hero-collection {
-        display: flex;
-        justify-content: center; 
-        text-align: center;
+        height: 60vh;
+        min-height: 420px;
     }
-    
-    .hero-content { text-align: center; }
-    
+    .hero-title { font-size: 3.5rem; }
+    .hero-text  { font-size: 1rem; }
+}
+
+/* ===== دسکتاپ ===== */
+@media (min-width: 1024px) {
+    .hero-collection {
+        height: 70vh;
+        min-height: 500px;
+        max-height: 720px;
+    }
+    .hero-title { font-size: 4.5rem; }
+}
+
+/* ===== موبایل: گرید محصولات ۲ ستون ===== */
+@media (max-width: 767px) {
     .collection-carts {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); 
-}
-
-}
-
-@media (min-width: 600px){
-    
-.hero-collection {
-    height: 150vh; 
-}
-
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
 }
