@@ -205,7 +205,7 @@
     
 }
 
-  /*___________________responsive__________________*/
+/*___________________responsive__________________*/
   
 /* ===== تبلت ===== */
 @media (min-width: 768px) {
@@ -215,7 +215,7 @@
     }
     
     .hero-title { font-size: 1.2rem; }
-    .hero-text  { font-size: 1rem; }
+    .hero-text  { font-size: 0.80rem; }
 }
 
 /* ===== دسکتاپ ===== */
@@ -228,7 +228,7 @@
     }
     .hero-title { font-size: 4.5rem; }
     
-   .hero-content {text-align: right;}
+   .hero-content {align-items: right;}
 }
     
 
